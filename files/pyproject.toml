@@ -1,6 +1,0 @@
-[project]
-name = "embedded-web-interface"
-version = "2025.0.0"
-dependencies = [
-    "flask"
-]
