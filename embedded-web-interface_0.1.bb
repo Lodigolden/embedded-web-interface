@@ -11,7 +11,7 @@ S = "${WORKDIR}"
 
 do_install() {
     install -d ${D}${bindir}
-    install j-m 0755 main.py ${D}${bindir}/embedded-web-interface
+    install -m 0755 ${WORKDIR}/src/main.py ${D}${bindir}/embedded-web-interface
 }
 
 FILES:${PN} += "${bindir}/embedded-web-interface"
